@@ -1,0 +1,45 @@
+body {
+    background-color: #fff;
+}
+
+h1 {
+    color: #333;
+}
+
+#outer {
+    position: relative;
+    display: inline-block;
+    top: 0;
+}
+#middle {
+    display: inline-block;
+    top: 50%;
+    position: relative;
+}
+
+#content {
+    display: inline-block;
+    top: -50%;
+    position: relative;
+}
+
+#some, #contact {
+    display: block;
+    margin-top: 1em;
+    border: none;
+    width: auto;
+}
+
+#some {
+    width: 20%;
+    float: left;
+}
+
+#contact {
+    width: 50%;
+    float: left;
+}
+
+input[type="submit"] {
+    background-color: #e5e5e5;
+}
